@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Гурт</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="./assets/free-icon-logo-7005152.png" alt="logo" />
+      <svg
+        class="burger"
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="30"
+        viewBox="0 0 30 30"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="3"
+        stroke-linecap="round"
+      >
+        <line x1="0" y1="5" x2="30" y2="5" />
+        <line x1="0" y1="15" x2="30" y2="15" />
+        <line x1="0" y1="25" x2="30" y2="25" />
+      </svg>
+      <svg
+        class="close"
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="30"
+        viewBox="0 0 30 30"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <line x1="7" y1="7" x2="23" y2="23" />
+        <line x1="23" y1="7" x2="7" y2="23" />
+      </svg>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#group">Про гурт</a></li>
+          <li><a href="#events">Концерти</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="popup" id="popup">
+        <span class="popup-close" id="popup-close">&times;</span>
+        <p class="popup-text"></p>
+      </div>
+      <section id="group">
+        <div class="hero-container">
+          <div class="container group-desc-container">
+            <h1 class="group-name">Гурт «Грим та грім»</h1>
+            <p class="group-desc">
+              Справжій український рок, який гуркоче в серці
+            </p>
+            <p class="group-desc">
+              «Грим та грім» - це поєднання
+              <span class="desc-unique">потужних</span> гітарних рифів , чесний
+              текстів і вибухової енергії . Ми граємо для тих , хто цінує живий
+              звук ,свободу та силу музики
+            </p>
+            <p class="group-desc">
+              <span class="desc-unique">Наші концерти</span>- це завжди контакт
+              з загалом , драйв і емоції. Приєднуйся до нас на найближчих
+              виступах і відчуй цей саунд наживо!
+            </p>
+            <button type="button" class="group-desc-button">
+              Замовити квиток
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="events-section" id="events">
+        <div class="container">
+          <div class="table-container">
+            <h2 class="table-header">Найближчі концерти</h2>
+            <table>
+              <thead>
+                <tr class="tr">
+                  <th class="th">Місто / Заклад</th>
+                  <th class="th">К-сть місць</th>
+                  <th class="th">Дата і час</th>
+                  <th class="th"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Київ — Docker-G Pub</td>
+                  <td>250</td>
+                  <td>25.10.2025, 19:00</td>
+                  <td>
+                    <button type="button" class="table-button">
+                      Замовити квиток
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Львів — !FESTrepublic</td>
+                  <td>400</td>
+                  <td>01.11.2025, 20:00</td>
+                  <td>
+                    <button type="button" class="table-button">
+                      Замовити квиток
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Одеса — Зелений театр</td>
+                  <td>700</td>
+                  <td>09.11.2025, 19:30</td>
+                  <td>
+                    <button type="button" class="table-button">
+                      Замовити квиток
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Харків — ArtZavod</td>
+                  <td>500</td>
+                  <td>16.11.2025, 19:00</td>
+                  <td>
+                    <button type="button" class="table-button">
+                      Замовити квиток
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="group-members" id="gallery">
+            <h2 class="group-members-header">Участники гурту</h2>
+            <ul class="group-members-list">
+              <li class="group-members-list-item">
+                <img src="./assets/1 (1).jpg" alt="1" />
+                <p>Максим - гітара</p>
+              </li>
+              <li class="group-members-list-item">
+                <img src="./assets/2 (1).jpg" alt="2" />
+                <p>Олена - вокал</p>
+              </li>
+              <li class="group-members-list-item">
+                <img src="./assets/3 (1).jpg" alt="3" />
+                <p>Тарас - барабани</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="our-story">
+          <div class="container">
+            <h2 class="our-story-header">Наша історія</h2>
+            <div class="our-story-photo-container">
+              <div class="our-story-photo-paragraph-container">
+                <p>
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old. Richard McClintock,
+                  a Latin professor at Hampden-Sydney College in Virginia,
+                  looked up
+                </p>
+                <p>
+                  one of the more obscure Latin words, consectetur, from a Lorem
+                  Ipsum passage, and going through the cites of the word in
+                  classical literature, discovered the undoubtable source Ipsum
+                  passage, and going through the cites of the word in classical
+                  literature, discovered the undoubtable
+                </p>
+              </div>
+              <img src="./assets/ff.jpg" alt="" />
+            </div>
+            <p>
+              The standard chunk of Lorem Ipsum used since the 1500s is
+              reproduced below for those interested. Sections 1.10.32 and
+            </p>
+            <p>
+              The standard chunk of Lorem Ipsum used since the 1500s is
+              reproduced below for those interested. Sections 1.10.32
+              andasdsadsa dsa
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contacts">
+        <div class="contactus">
+          <div class="container contactUs-container">
+            <form class="contact-form">
+              <div class="row">
+                <label>
+                  Ім’я
+                  <input type="text" name="firstName" required />
+                </label>
+                <label>
+                  Прізвище
+                  <input type="text" name="lastName" required />
+                </label>
+              </div>
+
+              <label>
+                Повідомлення
+                <textarea
+                  placeholder="Роскажіть про свої ідеї..."
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </label>
+
+              <button type="submit" class="form-button">Відправити</button>
+            </form>
+            <div class="location-container">
+              <div class="location-title">Наше місцезнаходження</div>
+              <iframe
+                class="map-frame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.94381672087!2d30.523400676912698!3d50.45003398915802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce5e0af0b0bb%3A0x9f8efafddfb66902!2sKyiv!5e0!3m2!1suk!2sua!4v1700000000000"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="rights-container">
+          <p class="rights">@ 2025 «Грим та грім». Всі права захищені</p>
+          <ul class="social">
+            <li>
+              <a href="https://instagram.com" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a href="https://youtube.com" target="_blank">Youtube</a>
+            </li>
+            <li>
+              <a href="https://facebook.com" target="_blank">Facebook</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <a href="mailto:booking@totoplay.com">booking@totoplay.com</a>
+
+          <a class="phone" href="tel:+380991234567">+380 (099) 123-45-67</a>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
